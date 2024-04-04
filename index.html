@@ -1,73 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth@75..100&family=Raleway:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        // Primary
+                        'very-dark-blue': 'hsl(243, 87%, 12%)',
+                        'desaturated-blue': 'hsl(238, 22%, 44%)',
+                        // Accent
+                        'bright-blue': 'hsl(224, 93%, 58%)',
+                        'moderate-cyan': 'hsl(170, 45%, 43%)',
+                        // Neutral
+                        'light-grayish-blue': 'hsl(240, 75%, 98%)',
+                        'light-gray': 'hsl(0, 0%, 75%)',
+                        // Attribution
+                        'color-attribution': 'hsl(228, 45%, 44%)',
+                    },
+                    fontSize: {
+                        'body': '1rem',
+                    },
+                    fontFamily: {
+                        // Headings, Call-to-actions, Header Navigation
+                        'raleway': ['Raleway', 'sans-serif'],
+                        // Body
+                        'open-sans': ['Open Sans', 'sans-serif'],
+                    },
+                    fontWeight: {
+                        'normal': 400,
+                        'bold': 700,
+                    }
+                }
+            }
+        };
+    </script>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
 </head>
+
 <body>
 
-  Features
-  Team
-  Sign In
+    <main>
 
-  All your files in one secure location, accessible anywhere.
+        <header>
+            <img src="./images/logo.svg" alt="Flyo">
+            <div>
+                <a href="#">Features</a>
+                <a href="#">Team</a>
+                <a href="#">Sign In</a>
+            </div>
+        </header>
 
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
+        <section>
+            <img src="./images/illustration-1.svg" alt="illustration-1">
 
-  Get Started
+            <div>
+                <h1>All your files in one secure location, accessible anywhere.</h1>
+                <p>
+                    Fylo stores your most important files in one secure location.
+                    Access them wherever you need, share and collaborate with friends,
+                    family, and co-workers.
+                </p>
 
-  Stay productive, wherever you are
+                <div>
+                    <input type="email" name="email" id="getStarted" placeholder="Enter your email...">
+                    <div>
+                        <div>Please check your email</div>
+                        <button>Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  Never let location be an issue when accessing your files. Fylo has you 
-  covered for all of your file storage needs.
 
-  Securely share files and folders with friends, family and colleagues for 
-  live collaboration. No email attachments required!
+        <section>
+            <img src="./images/illustration-2.svg" alt="">
 
-  See how Fylo works
+            <div>
+                <div>
+                    <h2>Stay productive, wherever you are</h2>
+                    <p>
+                        Never let location be an issue when accessing your files. Fylo has you
+                        covered for all of your file storage needs.
+                    </p>
+                    <p>
+                        Securely share files and folders with friends, family and colleagues for
+                        live collaboration. No email attachments required!
+                    </p>
+                    <div>
+                        <a href="#">See how Fylo works</a>
+                        <img src="./images/icon-arrow.svg" alt="arrow">
+                    </div>
+                </div>
 
-  Fylo has improved our team productivity by an order of magnitude. Since 
-  making the switch our team has become a well-oiled collaboration machine.
+                <div>
+                    <div>
+                        <img src="./images/icon-quotes.svg" alt="">
+                        <p>
+                            Fylo has improved our team productivity by an order of magnitude. Since
+                            making the switch our team has become a well-oiled collaboration machine.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./images/avatar-testimonial.jpg" alt="">
+                        <div>
+                            <h3>Kyle Burton</h3>
+                            <p>Founder & CEO, Huddle</p>
+                        </div>
+                    </div>
+                </div>
 
-  Kyle Burton
-  Founder & CEO, Huddle
+            </div>
+        </section>
 
-  Get early access today
+        <section>
+            <div>
+                <h4>Get early access today</h4>
+                <p>
+                    It only takes a minute to sign up and our free starter tier is extremely generous.
+                    If you have any questions, our support team would be happy to help you.
+                </p>
+            </div>
+            <div>
+                <input type="email" name="email" id="getStartedFree" placeholder="Enter your email...">
+                <div>
+                    <div>Please check your email</div>
+                    <button>Get Started For Free</button>
+                </div>
+            </div>
+        </section>
 
-  It only takes a minute to sign up and our free starter tier is extremely generous. 
-  If you have any questions, our support team would be happy to help you.
+        <section>
+            <div>
+                <img src="./images/logo.svg" alt="Flyo">
+                <div>
+                    <img src="./images/icon-phone.svg" alt="phone">
+                    <p>Phone: +1-543-123-4567</p>
+                </div>
+                <div>
+                    <img src="./images/icon-email.svg" alt="email">
+                    <p>example@fylo.com</p>
+                </div>
+            </div>
 
-  Get Started For Free
+            <div>
+                <a href="#">About Us</a>
+                <a href="#">Jobs</a>
+                <a href="#">Press</a>
+                <a href="#">Blog</a>
+            </div>
 
-  Phone: +1-543-123-4567
-  example@fylo.com
+            <div>
+                <a href="#">Contact Us</a>
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+            </div>
 
-  About Us
-  Jobs
-  Press
-  Blog
+            <div>
+                <img src="./images/facebook.svg" alt="facebook">
+                <img src="/images/twitter.svg" alt="twitter">
+                <img src="./images/Camera.svg" alt="Camera">
+            </div>
+        </section>
 
-  Contact Us
-  Terms
-  Privacy
+    </main>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+    <footer>
+        <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend
+                Mentor</a>.
+            Coded by <a href="#">Eric Yuji Suzuki</a>.
+        </p>
+    </footer>
 </body>
+
 </html>
