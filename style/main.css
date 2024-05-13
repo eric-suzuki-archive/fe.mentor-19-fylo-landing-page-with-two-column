@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth@75..100&family=Raleway:wght@100..900&display=swap');
+
+:root {
+    /* ------ Color Primary ------ */
+    --very-dark-blue: hsl(243, 87%, 12%);
+    --desaturated-blue: hsl(238, 22%, 44%);
+
+    /* ------ Accent ------ */
+    --bright-blue: hsl(224, 93%, 58%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+
+    /* ------ Color Neutral ------ */
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+
+    /* -------- Attribution -------- */
+    --color-attribution: hsl(228, 45%, 44%);
+
+    /* ------ Font ------ */
+    --font-regular: 400;
+    --font-bold: 700;
+    --font-Raleway: "Raleway", sans-serif;
+    --font-Open-Sans: "Open Sans", sans-serif;
+    --font-size: 16px;
+    --font-style: normal;
+}
+
+
+/* ------ Principal ------ */
+body {
+    background: var(--light-grayish-blue);
+    font-family: var(--font-Open-Sans);
+    font-size: var(--font-size);
+    font-weight: var(--font-regular);
+    font-style: var(--font-style);
+    color: var(--very-dark-blue);
+    /* background-image: url(../images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain; */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 542px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------ Header ------ */
+.header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 36px;
+    width: 482px;
+}
+
+.header-top img {
+    height: 36px;
+}
+
+.header-top .links {
+    width: 254px;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-Raleway);
+}
+
+.header-top .links a {
+    text-decoration: none;
+    color: var(--very-dark-blue);
+}
+
+/* ------ Block ------ */
+.block img {
+    width: 542px;
+    height: auto;
+}
+
+
+/* -------- Attribution -------- */
+.attribution {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    bottom: 0.5rem;
+    font-size: 0.7rem;
+    color: var(--pale-blue);
+}
+
+.attribution a {
+    color: var(--color-attribution);
+}
+
+/* ------ Responsivo ------ */
+/* @media only screen and (min-width: 1100px) {
+
+} */
