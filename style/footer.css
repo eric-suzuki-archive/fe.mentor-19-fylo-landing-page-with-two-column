@@ -1,0 +1,15 @@
+/* -------- Attribution -------- */
+.attribution {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    bottom: 0.5rem;
+    font-size: 0.7rem;
+    color: var(--pale-blue);
+}
+
+.attribution a {
+    color: var(--color-attribution);
+}

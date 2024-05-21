@@ -7,50 +7,14 @@
     <!-- displays site properly based on user's device -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth@75..100&family=Raleway:wght@100..900&display=swap"
-        rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/block01.css">
 
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-    <!-- <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        // Primary
-                        'very-dark-blue': 'hsl(243, 87%, 12%)',
-                        'desaturated-blue': 'hsl(238, 22%, 44%)',
-                        // Accent
-                        'bright-blue': 'hsl(224, 93%, 58%)',
-                        'moderate-cyan': 'hsl(170, 45%, 43%)',
-                        // Neutral
-                        'light-grayish-blue': 'hsl(240, 75%, 98%)',
-                        'light-gray': 'hsl(0, 0%, 75%)',
-                        // Attribution
-                        'color-attribution': 'hsl(228, 45%, 44%)',
-                    },
-                    fontSize: {
-                        'body': '1rem',
-                    },
-                    fontFamily: {
-                        // Headings, Call-to-actions, Header Navigation
-                        'raleway': ['Raleway', 'sans-serif'],
-                        // Body
-                        'open-sans': ['Open Sans', 'sans-serif'],
-                    },
-                    fontWeight: {
-                        'normal': 400,
-                        'bold': 700,
-                    }
-                }
-            }
-        };
-    </script> -->
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
@@ -61,7 +25,7 @@
 <body>
 
     <main>
-        <section class="Container">
+        <section class="container">
             <div class="header-top">
                 <img src="./images/logo.svg" alt="Flyo">
                 <div class="links">
@@ -83,18 +47,18 @@
                     </p>
                 </div>
 
-                    <div class="block_email">
-                        <input type="email" name="email" id="getStarted" placeholder="Enter your email...">
+                <div class="block_email">
+                    <input type="email" name="email" id="getStarted" placeholder="Enter your email...">
 
-                        <div class="button-01">
-                            <span>Please check your email</span>
-                            <button>Get Started</button>
-                        </div>
+                    <div class="button-01">
+                        <div class="check">Please check your email</div>
+                        <button>Get Started</button>
                     </div>
+                </div>
             </div>
 
             <div class="block block_02">
-                <img src="./images/illustration-2.svg" alt="">
+                <!-- <img src="./images/illustration-2.svg" alt=""> -->
 
                 <div class="block_02-set">
                     <div class="text">
@@ -110,20 +74,20 @@
                         </p>
                         <div class="link_arrow">
                             <a href="#">See how Fylo works</a>
-                            <img src="./images/icon-arrow.svg" alt="arrow">
+                            <!-- <img src="./images/icon-arrow.svg" alt="arrow"> -->
                         </div>
                     </div>
 
                     <div class="review">
                         <div class="comment">
-                            <img src="./images/icon-quotes.svg" alt="">
+                            <!-- <img src="./images/icon-quotes.svg" alt=""> -->
                             <p>
                                 Fylo has improved our team productivity by an order of magnitude. Since
                                 making the switch our team has become a well-oiled collaboration machine.
                             </p>
                         </div>
                         <div class="avatar">
-                            <img src="./images/avatar-testimonial.jpg" alt="">
+                            <!-- <img src="./images/avatar-testimonial.jpg" alt=""> -->
                             <div class="avatar-name">
                                 <h3>Kyle Burton</h3>
                                 <p>Founder & CEO, Huddle</p>
@@ -144,8 +108,8 @@
                 <div class="block_email">
                     <input type="email" name="email" id="getStartedFree" placeholder="Enter your email...">
 
-                    <div class="button-02">
-                        <div>Please check your email</div>
+                    <div class="button-01">
+                        <div class="check">Please check your email</div>
                         <button>Get Started For Free</button>
                     </div>
                 </div>
@@ -153,13 +117,13 @@
 
             <div class="block block_04">
                 <div class="flyo">
-                    <img src="./images/logo.svg" alt="Flyo">
+                    <!-- <img src="./images/logo.svg" alt="Flyo"> -->
                     <div class="flyo-contact">
-                        <img src="./images/icon-phone.svg" alt="phone">
+                        <!-- <img src="./images/icon-phone.svg" alt="phone"> -->
                         <p>Phone: +1-543-123-4567</p>
                     </div>
                     <div class="flyo-contact">
-                        <img src="./images/icon-email.svg" alt="email">
+                        <!-- <img src="./images/icon-email.svg" alt="email"> -->
                         <p>example@fylo.com</p>
                     </div>
                 </div>
@@ -178,9 +142,9 @@
                 </div>
 
                 <div class="social">
-                    <img src="./images/facebook.svg" alt="facebook">
-                    <img src="/images/twitter.svg" alt="twitter">
-                    <img src="./images/Camera.svg" alt="Camera">
+                    <!-- <img src="./images/facebook.svg" alt="facebook"> -->
+                    <!-- <img src="/images/twitter.svg" alt="twitter"> -->
+                    <!-- <img src="./images/Camera.svg" alt="Camera"> -->
                 </div>
             </div>
         </section>
