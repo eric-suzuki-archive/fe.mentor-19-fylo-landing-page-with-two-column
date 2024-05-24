@@ -8,8 +8,10 @@
     bottom: 0.5rem;
     font-size: 0.7rem;
     color: var(--pale-blue);
+    opacity: 0.5;
 }
 
 .attribution a {
     color: var(--color-attribution);
+    opacity: 0.5;
 }
