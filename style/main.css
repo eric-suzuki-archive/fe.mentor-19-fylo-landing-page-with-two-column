@@ -49,9 +49,18 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 540px;
+    width: 375px;
 }
 
+/* ------ Block ------ */
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    height: auto;
+}
 
 /* ------ Email and Button ------ */
 
@@ -64,15 +73,14 @@ main {
 }
 
 .block_email input {
-    width: 440px;
-    height: 55px;
-    font-size: 18px;
+    width: 300px;
+    height: 40px;
     border-radius: 5px;
 }
 
 .block_email input::placeholder {
     color: var(--light-gray);
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .button-01 {
@@ -83,15 +91,14 @@ main {
 }
 
 .button-01 button {
-    width: 440px;
-    height: 55px;
+    width: 300px;
+    height: 40px;
     background-color: var(--bright-blue);
     border-radius: 5px;
     border: none;
     color: var(--light-grayish-blue);
     font-family: var(--font-Open-Sans);
     font-weight: var(--font-bold);
-    font-size: 20px;
     margin: 10px 0 0 0;
 }
 
@@ -119,3 +126,20 @@ main {
     outline: none;
     opacity: 0.5;
 }
+
+/* .button-01 button:hover~.check {
+    display: block;
+} */
+
+/* .button-01 button:hover~.check,
+.button-01 button:hover~.check+button,
+.button-01 button:hover~.check~input {
+    border-color: red;
+    opacity: 0.5;
+    outline: none;
+} */
+
+/* .block_email button:hover+input {
+    border-color: red;
+    opacity: 0.5;
+} */
