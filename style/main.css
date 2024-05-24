@@ -69,7 +69,14 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.block_01 .block_email {
     margin-top: 48px;
+}
+
+.block_03 .block_email {
+    margin-top: 18px;
 }
 
 .block_email input {
