@@ -4,24 +4,26 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 36px;
-    width: 482px;
-    margin: 35px 30px 0;
+    height: 25px;
+    width: 325px;
+    margin: 23px 25px 0;
 }
 
 .header-top img {
-    height: 36px;
+    height: 25px;
+    width: 80px;
 }
 
 .header-top .links {
-    width: 254px;
+    width: 170px;
     display: flex;
     justify-content: center;
     font-family: var(--font-Raleway);
-    gap: 25px;
+   gap: 0 16px;
 }
 
 .header-top .links a {
+    font-size: 14px;
     text-decoration: none;
     color: var(--very-dark-blue);
 }
