@@ -28,7 +28,7 @@
 
 /* ------ Principal ------ */
 body {
-    background: var(--light-grayish-blue);
+    background: white;
     font-family: var(--font-Open-Sans);
     font-size: var(--font-size);
     font-weight: var(--font-regular);
