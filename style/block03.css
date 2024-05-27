@@ -5,7 +5,7 @@
     justify-content: flex-start;
     height: 345px;
     width: 375px;
-    margin-top: 82px;
+    /* margin-top: 82px; */
     background-color: var(--desaturated-blue);
 }
 

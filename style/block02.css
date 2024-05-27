@@ -1,16 +1,31 @@
 /* ------ Block 02 ------ */
 
 .block_02 {
-    height: 860px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    height: 930px;
     width: 375px;
-    margin-top: 90px;
+    margin-top: 120px;
+    background-color: #FAF8FE;
 }
 
 /* ------ Block 01 img ------ */
 
 .block_02 img {
-    height: 310px;
+    height: 240px;
     width: auto;
+    position: relative;
+    z-index: 3;
+}
+
+.block_02 .back {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    height: 30px;
+    width: 375px;
+    z-index: 1;
 }
 
 /* ------ Block 02 text ------ */
@@ -19,6 +34,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 2;
 }
 
 .block_02-set .text {
@@ -30,7 +47,7 @@
 
 .block_02-set .text h2 {
     height: 18px;
-    width: 270px;
+    width: 275px;
     font-size: 17px;
     text-align: center;
     font-weight: var(--font-bold);
@@ -81,6 +98,7 @@
     background-color: white;
     border-radius: 10px;
     margin-top: 45px;
+    margin-bottom: 82px;
 }
 
 .block_02-set .comment img {
