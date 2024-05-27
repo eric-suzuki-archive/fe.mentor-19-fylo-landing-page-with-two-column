@@ -72,8 +72,6 @@
     display: flex;
     justify-content: center;
     color: var(--moderate-cyan);
-    /* height: 20px;
-    width: 130px; */
     text-decoration: underline;
     margin-top: 40px;
 }
@@ -112,7 +110,6 @@
     width: 240px;
     margin-left: 30px;
     font-size: 10px;
-    /* font-family: var(--font-Raleway); */
     line-height: 16px;
 }
 
