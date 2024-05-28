@@ -1,5 +1,6 @@
 /* ------ Responsivo ------ */
 @media only screen and (min-width: 1440px) {
+
     /* ------ Principal ------ */
     .container {
         width: 1440px;
@@ -94,8 +95,9 @@
     /* ------ Block 02 ------ */
     .block_02 {
         flex-direction: row-reverse;
+        justify-content: center;
         height: 665px;
-        width: 1440px;
+        width: 100vw;
         margin-top: 285px;
     }
 
@@ -105,9 +107,11 @@
 
     .block_02 .back {
         background-image: url(../images/bg-curve-desktop.svg);
+        background-repeat: no-repeat;
         top: -120px;
+        left: 0;
         height: 120px;
-        width: 1440px;
+        width: 100vw;
     }
 
     .block_02-set {
@@ -193,9 +197,10 @@
 
     /* ------ Block 03 ------ */
     .block_03 {
+        justify-content: center;
         flex-direction: row;
         height: 320px;
-        width: 1440px;
+        width: 100vw;
     }
 
     .block_03 .text {
@@ -242,20 +247,20 @@
 
     .block_04 {
         height: 400px;
-        width: 1440px;
+        width: 100vw;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: flex-start;
     }
 
     .block_04 .flyo .f-logo {
-        margin: 105px 0 0 80px;
+        margin: 105px 0 0 0px;
     }
 
-    .flyo-contact,
+    /* .flyo-contact,
     .flyo-email {
         margin-left: 80px;
-    }
+    } */
 
     .flyo-contact {
         margin-top: 25px;
@@ -265,21 +270,19 @@
     .contactUs a {
         text-align: left;
         font-size: 16px;
-   
-
     }
 
     .aboutUS {
-    margin-top: 185px;
-    margin-left: 220px;
-}
+        margin-top: 185px;
+        margin-left: 220px;
+    }
 
-.contactUs {
-    margin-top: 185px;
-    margin-left: 130px;
-}
+    .contactUs {
+        margin-top: 185px;
+        margin-left: 185px;
+    }
 
-.social {
-    margin: 185px 0 0 185px;
-}
+    .social {
+        margin: 185px 0 0 185px;
+    }
 }
