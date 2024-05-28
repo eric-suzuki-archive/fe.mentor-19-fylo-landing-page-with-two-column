@@ -1,6 +1,5 @@
 /* ------ Responsivo ------ */
 @media only screen and (min-width: 1440px) {
-
     /* ------ Principal ------ */
     .container {
         width: 1440px;
@@ -102,7 +101,6 @@
 
     .block_02 img {
         height: 410px;
-
     }
 
     .block_02 .back {
@@ -251,8 +249,37 @@
     }
 
     .block_04 .flyo .f-logo {
-        height: 50px;
-        width: 180px;
-        margin: 70px 0 0 40px;
+        margin: 105px 0 0 80px;
     }
+
+    .flyo-contact,
+    .flyo-email {
+        margin-left: 80px;
+    }
+
+    .flyo-contact {
+        margin-top: 25px;
+    }
+
+    .aboutUS a,
+    .contactUs a {
+        text-align: left;
+        font-size: 16px;
+   
+
+    }
+
+    .aboutUS {
+    margin-top: 185px;
+    margin-left: 220px;
+}
+
+.contactUs {
+    margin-top: 185px;
+    margin-left: 130px;
+}
+
+.social {
+    margin: 185px 0 0 185px;
+}
 }
